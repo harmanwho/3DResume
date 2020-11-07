@@ -20,6 +20,7 @@ container.addEventListener('mousemove', (e) => {
 
 //Animate In
 container.addEventListener('mouseenter', (e) => {
+    card.style.transition = 'all 0.5s ease';
     card.style.transition = 'none';
     //Pop out
     title.style.transform = 'translateZ(100px)';
